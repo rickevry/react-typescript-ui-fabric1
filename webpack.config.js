@@ -1,4 +1,3 @@
-
 module.exports = {
     mode: "development",
     entry: "./src/index.tsx",
@@ -11,7 +10,6 @@ module.exports = {
     devtool: "source-map",
 
     resolve: {
-        // Add '.ts' and '.tsx' as resolvable extensions.
         extensions: [".ts", ".tsx", ".js", ".json"]
     },
 
